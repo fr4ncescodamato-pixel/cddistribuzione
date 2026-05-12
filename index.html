@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CD Distribuzione | Sicurezza ed elettrico</title>
+  <meta name="description" content="CD Distribuzione: telecamere Dahua, allarmi Combivox e materiale elettrico Vimar. Richiedi un preventivo o contattaci su WhatsApp." />
+  <style>
+    :root{--bg:#0b1118;--card:#111a24;--card2:#162230;--text:#f3f7fb;--muted:#a7b5c4;--accent:#e11d2e;--accent2:#ff5a5f;--line:rgba(255,255,255,.08);--shadow:0 20px 60px rgba(0,0,0,.35);--radius:22px;--max:1180px}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at top, rgba(225,29,46,.18), transparent 30%),var(--bg);color:var(--text)}
+    a{color:inherit;text-decoration:none} img{max-width:100%;display:block} .wrap{width:min(calc(100% - 32px),var(--max));margin:0 auto}
+    header{position:sticky;top:0;z-index:30;background:rgba(11,17,24,.72);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0} .brand{display:flex;align-items:center;gap:14px}
+    .brand img{width:52px;height:52px;border-radius:16px;object-fit:cover;box-shadow:var(--shadow)} .brand strong{display:block;font-size:1.05rem} .brand span{display:block;color:var(--muted);font-size:.92rem}
+    nav{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end} nav a{color:var(--muted);font-size:.95rem}
+    .hero{padding:56px 0 28px} .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:999px;color:#ffd5d8;font-weight:600;font-size:.9rem}
+    h1{font-size:clamp(2.3rem,5vw,4.9rem);line-height:1.02;margin:16px 0 14px} .lead{font-size:clamp(1.05rem,1.8vw,1.2rem);color:var(--muted);max-width:58ch}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px} .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:14px;font-weight:700;border:1px solid var(--line)}
+    .btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:white}.btn.secondary{background:rgba(255,255,255,.04);color:var(--text)}
+    .hero-card{background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}.stat strong{font-size:1.5rem;display:block}.stat span{color:var(--muted);font-size:.9rem}
+    section{padding:28px 0} .section-title{font-size:clamp(1.5rem,3vw,2.25rem);margin:0 0 14px} .section-sub{color:var(--muted);max-width:70ch;margin:0 0 20px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow)} .card h3{margin:0 0 8px} .card p{margin:0;color:var(--muted)}
+    .brands{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.brandbox{background:var(--card2);border:1px solid var(--line);border-radius:18px;padding:18px;min-height:150px;display:flex;flex-direction:column;justify-content:space-between}
+    .brandbox .tag{display:inline-flex;width:max-content;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.06);color:#ffd5d8;font-size:.82rem} .brandbox strong{font-size:1.1rem}
+    .contact{display:grid;grid-template-columns:1fr .9fr;gap:16px} form{display:grid;gap:12px} input,textarea{width:100%;padding:14px 16px;border-radius:14px;border:1px solid var(--line);background:#0f1720;color:var(--text)} textarea{min-height:120px;resize:vertical}
+    footer{padding:28px 0 40px;color:var(--muted);border-top:1px solid var(--line);margin-top:28px}
+    .floating{position:fixed;right:16px;bottom:16px;display:grid;gap:10px;z-index:40} .fab{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;box-shadow:var(--shadow);font-weight:800}
+    .fab.whatsapp{background:#25d366;color:white}.fab.call{background:#fff;color:#0b1118}
+    @media (max-width:900px){.hero-grid,.grid3,.brands,.contact{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.top{flex-direction:column;align-items:flex-start}}
+    @media (max-width:640px){.stats{grid-template-columns:1fr}.cta{flex-direction:column}.btn{width:100%} nav{justify-content:flex-start}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap top">
+      <a class="brand" href="#home">
+        <img src="assets/cd-logo.jpeg" alt="Logo CD Distribuzione" />
+        <div><strong>CD Distribuzione</strong><span>Sicurezza, allarmi e materiale elettrico</span></div>
+      </a>
+      <nav>
+        <a href="#chi-siamo">Chi siamo</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#brand">Brand</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="wrap">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Distribuzione professionale per installatori e aziende</div>
+          <h1>Soluzioni tecniche per videosorveglianza, allarmi e impianti elettrici.</h1>
+          <p class="lead">CD Distribuzione presenta e fornisce telecamere Dahua, sistemi di allarme Combivox e materiale elettrico Vimar con un servizio rapido, chiaro e orientato al preventivo.</p>
+          <div class="cta">
+            <a class="btn primary" href="#contatti">Richiedi preventivo</a>
+            <a class="btn secondary" href="https://wa.me/390000000000" target="_blank" rel="noopener">Scrivici su WhatsApp</a>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>Dahua</strong><span>Videosorveglianza</span></div>
+            <div class="stat"><strong>Combivox</strong><span>Sistemi di allarme</span></div>
+            <div class="stat"><strong>Vimar</strong><span>Materiale elettrico</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="assets/cd-logo.jpeg" alt="CD Distribuzione logo" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px;border:1px solid var(--line);" />
+        </div>
+      </div>
+    </section>
+
+    <section id="chi-siamo">
+      <h2 class="section-title">Chi siamo</h2>
+      <p class="section-sub">CD Distribuzione è il punto di riferimento per chi cerca una distribuzione tecnica chiara, affidabile e orientata alle esigenze di installatori, rivenditori e professionisti del settore.</p>
+      <div class="grid3">
+        <article class="card"><h3>Esperienza</h3><p>Supporto su prodotti tecnici e consulenza per la scelta della soluzione giusta.</p></article>
+        <article class="card"><h3>Affidabilità</h3><p>Brand selezionati e comunicazione diretta, senza giri inutili.</p></article>
+        <article class="card"><h3>Rapidità</h3><p>Richieste preventivo e contatti immediati da mobile e desktop.</p></article>
+      </div>
+    </section>
+
+    <section id="servizi">
+      <h2 class="section-title">Cosa offriamo</h2>
+      <p class="section-sub">Un sito pubblicitario deve portare contatti, non distrazioni: qui trovi una sintesi semplice dei servizi e delle soluzioni presentate da CD Distribuzione.</p>
+      <div class="grid3">
+        <article class="card"><h3>Videosorveglianza</h3><p>Telecamere, registratori e soluzioni per impianti professionali Dahua.</p></article>
+        <article class="card"><h3>Antintrusione</h3><p>Sistemi Combivox per allarmi, sensori e controllo sicurezza.</p></article>
+        <article class="card"><h3>Impianti elettrici</h3><p>Materiale Vimar per installazioni civili e professionali.</p></article>
+      </div>
+    </section>
+
+    <section id="brand">
+      <h2 class="section-title">Brand trattati</h2>
+      <div class="brands">
+        <div class="brandbox"><span class="tag">Dahua</span><strong>Videosorveglianza e controllo accessi</strong><p>Sistemi per immagini, monitoraggio e sicurezza.</p></div>
+        <div class="brandbox"><span class="tag">Combivox</span><strong>Allarmi e antintrusione</strong><p>Soluzioni per protezione ambienti e impianti.</p></div>
+        <div class="brandbox"><span class="tag">Vimar</span><strong>Materiale elettrico</strong><p>Serie civili e componenti per impianti professionali.</p></div>
+      </div>
+    </section>
+
+    <section id="contatti">
+      <h2 class="section-title">Contatti</h2>
+      <p class="section-sub">Compila il form oppure usa i contatti rapidi per ricevere informazioni e preventivi.</p>
+      <div class="contact">
+        <article class="card">
+          <form onsubmit="event.preventDefault(); alert('Richiesta inviata!');">
+            <input type="text" placeholder="Nome e cognome" required />
+            <input type="email" placeholder="Email" required />
+            <input type="tel" placeholder="Telefono" />
+            <textarea placeholder="Scrivi la tua richiesta" required></textarea>
+            <button class="btn primary" type="submit">Invia richiesta</button>
+          </form>
+        </article>
+        <article class="card">
+          <h3>Contatti rapidi</h3>
+          <p>Telefono: cliccabile da mobile.</p>
+          <p>WhatsApp: risposta veloce.</p>
+          <p>Email: preventivi e richieste tecniche.</p>
+          <div class="cta" style="margin-top:18px">
+            <a class="btn secondary" href="tel:+390000000000">Chiama ora</a>
+            <a class="btn secondary" href="mailto:info@cddistribuzione.it">Scrivi email</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="floating">
+    <a class="fab whatsapp" href="https://wa.me/390000000000" target="_blank" rel="noopener">WA</a>
+    <a class="fab call" href="tel:+390000000000">☎</a>
+  </div>
+
+  <footer>
+    <div class="wrap">© 2026 CD Distribuzione — Sito pubblicitario.</div>
+  </footer>
+</body>
+</html>
